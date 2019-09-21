@@ -2,14 +2,21 @@ import UIKit
 import GameplayKit
 
 
-//Subiendo primer cambio locas forever. Primera llamada... desde ramalors
+//Se declaran los estados del juego
+enum Sign: String {
+    case papel,piedra,tijeras
+    var descripcion: String {
+        switch self {
+        case .papel:
+            return "✋"
+        case .piedra:
+            return "👊"
+        default:
+            return "✌️"
+        }
+    }
+}
 
-//Subiendo al master Fab  holi g
+var tijeras = Sign.tijeras
+print(tijeras.descripcion)
 
-var str = "Hello, playground"
-
-
-//Hola aquí gaby
-
-
-//Comentario de Diana
