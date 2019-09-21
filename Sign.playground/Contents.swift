@@ -19,3 +19,4 @@ enum Sign: String {
 
 var tijeras = Sign.tijeras
 print(tijeras.descripcion)
+
